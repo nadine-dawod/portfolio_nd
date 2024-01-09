@@ -32,6 +32,25 @@ font-family: 'Open Sans', sans-serif; */
   font-weight: 300;
 }
 
+.header_icon {
+  color: black;
+  font-size: 40px;
+}
+
+.header_menu {
+  max-width: 1200px;
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 237, 237, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header_link {
+  font-size: 20px;
+}
+
 /* 
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Mulish', sans-serif;
