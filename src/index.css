@@ -1,13 +1,53 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+.header_body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header_container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+.footer_body {
+  margin: 0;
+}
+
+.footer_container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_icon {
+  color: black;
+  font-size: 40px;
+}/*# sourceMappingURL=index.css.map */
