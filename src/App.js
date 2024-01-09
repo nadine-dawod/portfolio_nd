@@ -1,14 +1,26 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header"
 import Footer from "./components/Footer";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 
 
 const App = () => {
   return (
-    <div>
-      <Header />
+    <BrowserRouter>
 
-      <Footer />
-    </div>
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="CV" element={<Skills />} />
+          <Route path="Projects" element={<Work />} />
+        </Routes>
+
+        <Footer />
+      
+    </BrowserRouter>
   );
 };
 
