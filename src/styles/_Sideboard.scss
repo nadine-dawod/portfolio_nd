@@ -2,7 +2,7 @@
 
 .sideboard_container {
     width: 100px;
-    height: 400px;
+    min-height: 500px;
     background: $page-background;
     display: flex;
     flex-direction: column;
