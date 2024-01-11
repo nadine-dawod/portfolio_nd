@@ -4,6 +4,9 @@ import { useState } from "react";
 import Sideboard from "./Sideboard";
 import Button from "./Button";
 import SkillOne from "./SkillOne";
+import SkillTwo from "./SkillTwo";
+import SkillThree from "./SkillThree";
+import SkillFour from "./SkillFour";
 
 const Skills = () => {
 
@@ -31,15 +34,27 @@ const Skills = () => {
 
                 <div className="skills_section_two">
                     <h2>Education</h2>
+                    <Button handleClick={() => setTwo(!two)}>
+                        {two ? "See more" : "See less"}
+                    </Button>
+                        {two ? null : <SkillTwo />}
                 </div>
 
                 <div className="skills_section_three">
                     <h2>Volunteer</h2>
+                    <Button handleClick={() => setThree(!three)}>
+                        {three ? "See more" : "See less"}
+                    </Button>
+                        {three ? null : <SkillThree />}
 
                 </div>
 
                 <div className="skills_section_four">
                     <h2>Skills</h2>
+                    <Button handleClick={() => setFour(!four)}>
+                        {four ? "See more" : "See less"}
+                    </Button>
+                        {four ? null : <SkillFour />}
                 </div>
 
             </div>

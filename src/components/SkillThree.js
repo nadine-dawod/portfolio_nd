@@ -1,5 +1,4 @@
-
-const SkillOne = () => {
+const SkillThree = () => {
     return (
         <div className="skillOne_body">
             <div className="skillOne_container">
@@ -13,4 +12,4 @@ const SkillOne = () => {
     );
 };
 
-export default SkillOne;
+export default SkillThree;
