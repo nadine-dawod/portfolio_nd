@@ -1,11 +1,16 @@
-
+import Sideboard from "./Sideboard";
 
 const Work = () => {
     return (
         <div className="work_body">
             
-            <p>What you have done</p>
-        
+            <div><Sideboard /></div>
+
+            <div className="work_container">
+
+                <h1>Welcome</h1>
+
+            </div>
         </div>
     )
 };

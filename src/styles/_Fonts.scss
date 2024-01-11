@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
 
-/* 
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Mulish', sans-serif;
-font-family: 'Open Sans', sans-serif; */
 
 //Header and footer colors//
 $header-footer-color: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
@@ -16,6 +12,53 @@ $page-background: rgb(255, 237, 237, 0.2);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     font-weight: 300;
+    color: black;
 };
 
+//Styling for links//
+@mixin links {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+};
+
+
 //Styling for headers//
+
+@mixin h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: black;
+};
+
+@mixin h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+};
+
+@mixin h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+};
+
+//Styling for paragraphs//
+
+@mixin para {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+};
+
+@mixin alt-para {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+};

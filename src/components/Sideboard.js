@@ -1,11 +1,22 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Sideboard = () => {
     return (
             <div className="sideboard_container">
-                                <Link className="sideboard_link" to="/">About</Link>
-                                <Link className="sideboard_link" to="/Skills">Skills</Link>
-                                <Link className="sideboard_link" to="/Work">Work</Link>
+                                <NavLink 
+                                    to="/"
+                                    className={({isActive}) => (isActive ? "active_link" : "inactive_link")}
+                                    >About</NavLink>
+
+                                <NavLink 
+                                    to="/Skills"
+                                    className={({isActive}) => (isActive ? "active_link" : "inactive_link")}
+                                    >Skills</NavLink>
+                                
+                                <NavLink 
+                                    to="/Work"
+                                    className={({isActive}) => (isActive ? "active_link" : "inactive_link")}
+                                    >Work</NavLink>
             </div>
     );
 };

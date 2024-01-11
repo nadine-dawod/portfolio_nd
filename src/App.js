@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
-import Sideboard from "./components/Sideboard";
 
 
 const App = () => {
@@ -13,7 +12,6 @@ const App = () => {
     <BrowserRouter>
 
         <Header />
-        <Sideboard />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/Skills" element={<Skills />} />
