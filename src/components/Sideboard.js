@@ -8,7 +8,7 @@ const Sideboard = () => {
                                     className={({isActive}) => (isActive ? "active_link" : "inactive_link")}
                                     >About</NavLink>
 
-                                <NavLink 
+                                <NavLink
                                     to="/Skills"
                                     className={({isActive}) => (isActive ? "active_link" : "inactive_link")}
                                     >Skills</NavLink>

@@ -2,11 +2,14 @@
 
 const Button = ({children, handleClick}) => {
     return (
-        <Button 
+    <>
+        <button 
             className="button"
             onClick={handleClick}
-        >{children}
-        </Button>
+        >
+            {children}
+        </button>
+    </>
     );
 };
 
