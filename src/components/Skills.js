@@ -3,10 +3,10 @@ import { useState } from "react";
 
 import Sideboard from "./Sideboard";
 import Button from "./Button";
-import SkillOne from "./SkillOne";
-import SkillTwo from "./SkillTwo";
-import SkillThree from "./SkillThree";
-import SkillFour from "./SkillFour";
+import SkillOne from "./skills/SkillOne";
+import SkillTwo from "./skills/SkillTwo";
+import SkillThree from "./skills/SkillThree";
+import SkillFour from "./skills/SkillFour";
 
 const Skills = () => {
 
