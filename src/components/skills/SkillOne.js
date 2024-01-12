@@ -1,15 +1,14 @@
 
 const SkillOne = () => {
     return (
-        <div className="skillOne_body">
             <div className="skillOne_container">
 
                 <h3>Red Cross</h3>
-                <p>blablablablablalblablalbalblablalbal</p>
-                <p>blablablablablalblablalbalblablalbal</p>
+                <p>Project leader and organisational developer, </p>
+                <p>blablablablablalblablalbalblablalbal
+                blablablablablalblablalbalblablalbal</p>
             </div>
 
-        </div>
     );
 };
 

@@ -104,8 +104,15 @@ h1 {
   width: 100%;
   min-height: 500px;
   display: grid;
-  grid-template-rows: 400px;
+  grid-template-rows: 500px;
   grid-template-columns: 100px auto;
+}
+
+.skills_sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
 }
 
 h2 {
@@ -123,8 +130,10 @@ h3 {
 }
 
 .skillOne_container {
+  width: 800px;
+  width: 100%;
   display: grid;
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(3, auto);
   grid-template-columns: repeat(3, auto);
 }
 
@@ -175,4 +184,5 @@ h3 {
   background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
   width: 100px;
   height: 100px;
+  border: none;
 }/*# sourceMappingURL=index.css.map */

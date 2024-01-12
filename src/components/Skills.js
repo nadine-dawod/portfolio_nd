@@ -24,39 +24,40 @@ const Skills = () => {
 
                 <h1>Experiences</h1>
 
-                <div className="skills_section_one">
-                    <h2>Work experience</h2>
-                    <Button handleClick={() => setOne(!one)}>
-                        {one ? "See more" : "See less"}
-                    </Button>
-                        {one ? null : <SkillOne />}
+                <div className="skills_sections">
+                    <div className="skills_section_one">
+                        <h2>Work</h2>
+                        <Button handleClick={() => setOne(!one)}>
+                            {one ? "See more" : "See less"}
+                        </Button>
+                            {one ? null : <SkillOne />}
+                    </div>
+
+                    <div className="skills_section_two">
+                        <h2>Education</h2>
+                        <Button handleClick={() => setTwo(!two)}>
+                            {two ? "See more" : "See less"}
+                        </Button>
+                            {two ? null : <SkillTwo />}
+                    </div>
+
+                    <div className="skills_section_three">
+                        <h2>Volunteer</h2>
+                        <Button handleClick={() => setThree(!three)}>
+                            {three ? "See more" : "See less"}
+                        </Button>
+                            {three ? null : <SkillThree />}
+
+                    </div>
+
+                    <div className="skills_section_four">
+                        <h2>Skills</h2>
+                        <Button handleClick={() => setFour(!four)}>
+                            {four ? "See more" : "See less"}
+                        </Button>
+                            {four ? null : <SkillFour />}
+                    </div>
                 </div>
-
-                <div className="skills_section_two">
-                    <h2>Education</h2>
-                    <Button handleClick={() => setTwo(!two)}>
-                        {two ? "See more" : "See less"}
-                    </Button>
-                        {two ? null : <SkillTwo />}
-                </div>
-
-                <div className="skills_section_three">
-                    <h2>Volunteer</h2>
-                    <Button handleClick={() => setThree(!three)}>
-                        {three ? "See more" : "See less"}
-                    </Button>
-                        {three ? null : <SkillThree />}
-
-                </div>
-
-                <div className="skills_section_four">
-                    <h2>Skills</h2>
-                    <Button handleClick={() => setFour(!four)}>
-                        {four ? "See more" : "See less"}
-                    </Button>
-                        {four ? null : <SkillFour />}
-                </div>
-
             </div>
         </div>
     );
