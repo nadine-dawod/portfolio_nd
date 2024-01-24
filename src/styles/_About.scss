@@ -5,10 +5,7 @@
     background: $page-background;
     max-width: 1200px;
     width: 100%;
-    min-height: 500px;
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: 100px auto;
+  
 };
 
 .about_section {
@@ -26,11 +23,14 @@
 h1 {
     text-align: center;
     @include h1;
+    margin: 0;
+    padding-top: 25px;
 };
 
 .about_text {
     @include para;
     width: 500px;
+    padding-top: 25px;
 }
 
 @media screen and (max-width: 600px) {

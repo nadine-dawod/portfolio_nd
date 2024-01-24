@@ -25,7 +25,6 @@ const Skills = () => {
                     <div className="skills_box one">
                         <h2>Work</h2>
                         <Button 
-                        className="skills_button"
                         handleClick={() => setOne(!one)}>
                             {one ? "See more" : "See less"}
                         </Button>

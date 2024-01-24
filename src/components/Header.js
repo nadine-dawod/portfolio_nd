@@ -6,12 +6,14 @@ const Header = () => {
 
     return (
         <div className="header_body">
-            <div className="header_container">
+
+
+            <div className="header_logo">
                 <p className="logo">N A D I N E</p> 
                 <p className="logo">D A W O D</p>
             </div>
 
-            <div className="headboard_container">
+            <div className="header_menu">
                                 <NavLink 
                                     to="/"
                                     className={({isActive}) => (isActive ? "active_link" : "inactive_link")}
