@@ -1,7 +1,6 @@
 
 import { useState } from "react";
 
-import Sideboard from "./Sideboard";
 import Button from "./Button";
 import SkillOne from "./skills/SkillOne";
 import SkillTwo from "./skills/SkillTwo";
@@ -18,22 +17,22 @@ const Skills = () => {
     return (
         <div className="skills_body">
             
-            <div><Sideboard /></div>
-
             <div className="skills_container">
 
                 <h1>Experiences</h1>
 
                 <div className="skills_sections">
-                    <div className="skills_section_one">
+                    <div className="skills_box one">
                         <h2>Work</h2>
-                        <Button handleClick={() => setOne(!one)}>
+                        <Button 
+                        className="skills_button"
+                        handleClick={() => setOne(!one)}>
                             {one ? "See more" : "See less"}
                         </Button>
                             {one ? null : <SkillOne />}
                     </div>
 
-                    <div className="skills_section_two">
+                    <div className="skills_box two">
                         <h2>Education</h2>
                         <Button handleClick={() => setTwo(!two)}>
                             {two ? "See more" : "See less"}
@@ -41,7 +40,7 @@ const Skills = () => {
                             {two ? null : <SkillTwo />}
                     </div>
 
-                    <div className="skills_section_three">
+                    <div className="skills_box three">
                         <h2>Volunteer</h2>
                         <Button handleClick={() => setThree(!three)}>
                             {three ? "See more" : "See less"}
@@ -50,7 +49,7 @@ const Skills = () => {
 
                     </div>
 
-                    <div className="skills_section_four">
+                    <div className="skills_box four">
                         <h2>Skills</h2>
                         <Button handleClick={() => setFour(!four)}>
                             {four ? "See more" : "See less"}

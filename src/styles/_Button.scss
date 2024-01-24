@@ -2,7 +2,8 @@
 
 .button {
     background: $header-footer-color;
-    width: 100px;
-    height: 100px;
-    border: none;
+    width: 125px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 25px;
 };

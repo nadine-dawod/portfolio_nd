@@ -5,6 +5,7 @@
 
 };
 
+// LOGO //
 .header_container {
     max-width: 1200px;
     width: 100%;
@@ -24,4 +25,32 @@
     font-size: 40px;
 };
 
+// LINK MENU //
 
+.headboard_container {
+    width: 100px;
+    min-height: 500px;
+    background: $page-background;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: solid 3px  rgb(208, 246, 255);
+    position: absolute;
+        left: 0;
+};  
+
+.active_link {
+    @include links;
+    font-weight: 500;
+}
+
+.inactive_link {
+    @include links;
+    font-weight: 300;
+};
+
+.inactive_link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

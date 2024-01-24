@@ -1,11 +1,10 @@
-import Sideboard from "./Sideboard";
+
 import nadine from "../images/nadine.jpeg"
 
 const About = () => {
     return (
         <div className="about_body">
 
-            <div><Sideboard /></div>
 
             <div className="about_container">
 
