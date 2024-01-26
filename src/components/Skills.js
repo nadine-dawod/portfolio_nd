@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 import Button from "./Button";
+
 import SkillOne from "./skills/SkillOne";
 import SkillTwo from "./skills/SkillTwo";
 import SkillThree from "./skills/SkillThree";
@@ -9,10 +10,12 @@ import SkillFour from "./skills/SkillFour";
 
 const Skills = () => {
 
+
     const [one, setOne] = useState(true);
     const [two, setTwo] = useState(true);
     const [three, setThree] = useState(true);
     const [four, setFour] = useState(true);
+
 
     return (
         <div className="skills_body">
@@ -22,6 +25,8 @@ const Skills = () => {
                 <h1>Experiences</h1>
 
                 <div className="skills_sections">
+
+
                     <div className="skills_box one">
                         <h2>Work</h2>
                         <Button 
@@ -56,7 +61,9 @@ const Skills = () => {
                             {four ? null : <SkillFour />}
                     </div>
                 </div>
+
             </div>
+
         </div>
     );
 };

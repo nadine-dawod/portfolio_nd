@@ -1,14 +1,13 @@
 const SkillTwo = () => {
     return (
-        <div className="skillOne_body">
-            <div className="skillOne_container">
 
-                <h3>Red Cross</h3>
-                <p>blablablablablalblablalbalblablalbal</p>
-                <p>blablablablablalblablalbalblablalbal</p>
+            <div className="skillTwo_container">
+
+            <h3>SKILL TWO</h3>
+            <p>blablablablabl</p>
+            <p>blablablablabl</p>
             </div>
 
-        </div>
     );
 };
 

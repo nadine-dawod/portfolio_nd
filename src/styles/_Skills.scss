@@ -2,7 +2,7 @@
 @import "Fonts";
 
 .skills_body {
-    margin: 0;
+    margin: 25px;
     background: $page-background;
     max-width: 1900px;
     width: 100%;
@@ -25,16 +25,4 @@ h2 {
 
 h3 {
     @include h3;
-};
-
-// SkillOne //
-
-.skillOne_container {
-    margin-top: 25px;
-    width: 1200px;
-    width: 100%;
-    background: $skills-background;
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: repeat(3,auto);
 };

@@ -1,6 +1,7 @@
 
 const SkillOne = () => {
     return (
+        
             <div className="skillOne_container">
 
                 <h3>Swedish Red Cross</h3>
