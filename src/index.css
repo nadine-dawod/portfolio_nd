@@ -205,12 +205,17 @@ h2 {
 }
 
 .work_body {
-  margin: 0;
+  padding: 25px;
   background: rgba(255, 237, 237, 0.2);
   max-width: 1900px;
   width: 100%;
-  min-height: 500px;
-  display: grid;
-  grid-template-rows: 400px;
-  grid-template-columns: 100px auto;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/* 
+h2 {
+    @include h2;
+};
+
+.skills_section {
+    border-bottom: 1px solid black;
+} *//*# sourceMappingURL=index.css.map */

@@ -6,7 +6,9 @@ const Work = () => {
 
             <div className="work_container">
 
-                <h1>Welcome</h1>
+                <div className="work_section one">
+                                        
+                </div>
 
             </div>
         </div>

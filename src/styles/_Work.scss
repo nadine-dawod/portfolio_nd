@@ -2,12 +2,18 @@
 @import "Fonts";
 
 .work_body {
-    margin: 0;
+    padding: 25px;
     background: $page-background;
     max-width: 1900px;
     width: 100%;
-    min-height: 500px;
-    display: grid;
-    grid-template-rows: 400px;
-    grid-template-columns: 100px auto;
 };
+
+
+/* 
+h2 {
+    @include h2;
+};
+
+.skills_section {
+    border-bottom: 1px solid black;
+} */
