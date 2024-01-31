@@ -2,7 +2,7 @@
 @import "Fonts";
 
 .skills_body {
-    margin: 25px;
+    padding: 25px;
     background: $page-background;
     max-width: 1900px;
     width: 100%;
@@ -12,12 +12,18 @@ h2 {
     @include h2;
 };
 
+.skills_section {
+    border-bottom: 1px solid black;
+}
+
+//Education, Work, Volunteer containers//
 
 .skill_box {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
+    border-bottom: 1px solid rgb(208, 246, 255);
 }
 
 @media screen and (max-width: 600px)
@@ -38,4 +44,20 @@ h2 {
 .skill_box_year{
     @include para;
     font-style: italic;
+}
+
+
+// SkillSKills container//
+
+.skill_icon {
+    font-size: 30px;
+}
+
+.SkillSkills_container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 15px;
+    justify-items: center;
+    margin-bottom: 25px;
 }

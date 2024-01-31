@@ -11,35 +11,28 @@ const Skills = () => {
             
             <div className="skills_container">
 
-                <h1>Experiences</h1>
-
-                <div className="skills_sections">
-
-
-                    <div className="skills_section_one">
+                    <div className="skills_section">
                         <h2>Work</h2>
                         <SkillWork />
                     </div>
 
-                    <div className="skills_section_two">
+                    <div className="skills_section">
                         <h2>Education</h2>
                         <SkillEducation />
                     </div>
 
-                    <div className="skills_section_three">
+                    <div className="skills_section">
                         <h2>Volunteer</h2>
                         <SkillVolunteer />
                     </div>
 
-                    <div className="skills_section_four">
+                    <div className="skills_section">
                         <h2>Skills</h2>
                         <SkillSkills />
                     </div>
                 </div>
 
             </div>
-
-        </div>
     );
 };
 
