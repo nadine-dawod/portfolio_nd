@@ -5,22 +5,22 @@ const SkillVolunteer = () => {
 
                 <div className="skill_box">
                     <h3 className="skill_box_company">RFSU</h3>
-                    <p className="skill_box_titel">National Board Memeber</p>
+                    <p className="skill_box_titel">National board memeber</p>
                     <p className="skill_box_year">May 2023 - ongoing</p>
                 </div>
 
                 <div className="skill_box">
-                    <h3 className="skill_box_company">RFSL Youth</h3>
-                    <p className="skill_box_titel">Managing director for Newcomers Youth</p>
-                    <p className="skill_box_year">January 2017 - August 2017</p>
+                    <h3 className="skill_box_company">Unionen Red Cross Branch</h3>
+                    <p className="skill_box_titel">Board member</p>
+                    <p className="skill_box_year">September 2021 - ongoing</p>
                 </div>
 
                 <div className="skill_box">
-                    <h3 className="skill_box_company">LSU - The National Council for Youth Organisations</h3>
-                    <p className="skill_box_titel">Project coordinator for Samordningsprojektet</p>
-                    <p className="skill_box_year">March 2016 - December 2016</p>
+                    <h3 className="skill_box_company">RFSU</h3>
+                    <p className="skill_box_titel">Sexual education informer</p>
+                    <p className="skill_box_year">September 2017 - August 2018</p>
                 </div>
-
+                
             </div>
 
     );

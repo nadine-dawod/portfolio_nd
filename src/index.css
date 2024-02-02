@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Mulish:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
 .header_body {
   margin: 0;
   position: relative;
@@ -83,19 +82,12 @@
   font-size: 40px;
 }
 
-.button {
-  background: rgba(208, 246, 255, 0.5);
-  width: 125px;
-  height: 75px;
-  border: 3px solid white;
-  border-radius: 25px;
-}
-
 .about_body {
   margin: 0;
   background: rgba(255, 237, 237, 0.2);
   max-width: 1900px;
   width: 100%;
+  padding-bottom: 25px;
 }
 
 .about_section {
@@ -211,11 +203,63 @@ h2 {
   width: 100%;
 }
 
-/* 
-h2 {
-    @include h2;
-};
+.work_section {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
 
-.skills_section {
-    border-bottom: 1px solid black;
-} *//*# sourceMappingURL=index.css.map */
+@media screen and (max-width: 600px) {
+  .work_section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.work_box {
+  padding: 25px;
+  width: 500px;
+}
+
+.work_box_titel {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+
+.work_box_info {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+
+.work__box_img {
+  width: 250px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
+.work_box_iconbtn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.work_button {
+  background: rgba(208, 246, 255, 0.5);
+  width: 125px;
+  height: 75px;
+  border: 3px solid white;
+  border-radius: 25px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+
+.work_button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */
