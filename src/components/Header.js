@@ -15,7 +15,7 @@ const Header = () => {
 
             <div className="header_menu">
                                 <NavLink 
-                                    to="/"
+                                    to="/About"
                                     className={({isActive}) => (isActive ? "active_link" : "inactive_link")}
                                     >About</NavLink>
 
