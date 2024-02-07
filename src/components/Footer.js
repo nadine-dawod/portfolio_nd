@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer_container">
                     <a href="https://github.com/nadine-dawod" target="_blank"><FaSquareGithub className="footer_icon"/></a>
                     <a href="https://www.linkedin.com/in/nadine-dawod/" target="_blank"><FaLinkedin className="footer_icon"/></a>
-                    <a href="mailto:nadinekdawod@gmail.com"><MdOutlineAlternateEmail className="footer_icon"/></a>
+                    <a href="mailto:nadinekdawod@gmail.com" target="_blank"><MdOutlineAlternateEmail className="footer_icon"/></a>
 
             </div>
         </div>
