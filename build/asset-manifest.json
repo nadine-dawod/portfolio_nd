@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio_nd/static/css/main.d9c93d0d.css",
+    "main.js": "/portfolio_nd/static/js/main.baa42659.js",
+    "static/media/genesis.png": "/portfolio_nd/static/media/genesis.8bac119b3e7df35741c0.png",
+    "static/media/bootstrap.png": "/portfolio_nd/static/media/bootstrap.6e751ff34fe45614129f.png",
+    "static/media/productly.png": "/portfolio_nd/static/media/productly.b8c3dd86e6d57179bed8.png",
+    "static/media/nadine.jpeg": "/portfolio_nd/static/media/nadine.b57948de2713a3762796.jpeg",
+    "static/media/expense_app.png": "/portfolio_nd/static/media/expense_app.d102f26478bc708245c7.png",
+    "index.html": "/portfolio_nd/index.html",
+    "main.d9c93d0d.css.map": "/portfolio_nd/static/css/main.d9c93d0d.css.map",
+    "main.baa42659.js.map": "/portfolio_nd/static/js/main.baa42659.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9c93d0d.css",
+    "static/js/main.baa42659.js"
+  ]
+}
