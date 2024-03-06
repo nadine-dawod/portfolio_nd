@@ -19,7 +19,10 @@
     .work_section {
         display: flex;
         flex-direction: column;
-}
+    }
+    .work_box {
+        width: 500px;
+    };
 }
 
 .work_box {

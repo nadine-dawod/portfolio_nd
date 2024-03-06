@@ -36,8 +36,12 @@ h1 {
 
 @media screen and (max-width: 600px) {
     .about_text{
-        width: 200px;
+        width: 300px;
         height: 300px;
         overflow: scroll;
     };
+    .profile_picture {
+        width: 200px;
+        height: 200px;
+    }
 };
