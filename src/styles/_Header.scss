@@ -16,10 +16,13 @@
     align-items: center;
 };
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     .header_logo{
-        width: 400px;
+        width: 350px;
     };
+    .header_menu {
+        width: 350px;
+    }
 }
 
 .logo {

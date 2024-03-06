@@ -19,9 +19,12 @@
   align-items: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .header_logo {
-    width: 400px;
+    width: 350px;
+  }
+  .header_menu {
+    width: 350px;
   }
 }
 .logo {
@@ -126,10 +129,10 @@ h1 {
   padding-top: 25px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .about_text {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     overflow: scroll;
   }
   .profile_picture {
@@ -163,7 +166,7 @@ h2 {
   border-bottom: 1px solid rgb(208, 246, 255);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
   .skill_box {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -218,13 +221,13 @@ h2 {
   border-bottom: 1px solid black;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .work_section {
     display: flex;
     flex-direction: column;
   }
   .work_box {
-    width: 400px;
+    width: 350px;
   }
 }
 .work_box {

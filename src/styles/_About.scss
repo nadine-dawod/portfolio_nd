@@ -34,10 +34,10 @@ h1 {
     padding-top: 25px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     .about_text{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         overflow: scroll;
     };
     .profile_picture {
